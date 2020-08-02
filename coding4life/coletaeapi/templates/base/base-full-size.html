@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt_br" class="full-size">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		{% include '../base/base-css.html' %}
+		{% block style_source %}{% endblock %}
+		{% include '../base/base-scripts.html' %}
+		{% block script_source %}{% endblock %}
+		{% block head %}{% endblock %}
+	</head>
+	{% block body %}{% endblock %}
+</html>
+

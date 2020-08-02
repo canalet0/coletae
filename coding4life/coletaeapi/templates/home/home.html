@@ -1,0 +1,36 @@
+{% extends '../base/base-full-size.html' %}
+{% load static %}
+
+{% block style_source %}
+        <link rel="stylesheet" href="{% static '/styles/home/home.css' %}">
+{% endblock style_source %}
+
+{% block head %}
+    <title>ColetAê!</title>
+{% endblock head %}
+
+{% block body %}
+  <body class="homeBackground full-size">
+
+  {% include '../navbar/navbar.html' %}
+
+    <div class="main flex-container flex-column">
+      <div class="two-third col-md-24">
+        <h1 class="mypurpletext homeTitle">
+          ColetAê!
+        </h1>
+      </div>
+
+      <div class="two-third col-md-24">
+        <h2 class="mygreytext homeSubTitle">
+          Encontre o ponto de coleta mais próximo de você.
+        </h2>
+      </div>      
+      <div class="two-third col-md-24">
+        <p class="homeParagraph mobileHidden mygreytext">
+          Ajudamos pessoas a encontrarem pontos de coleta de forma simples e eficiente.
+        </p>
+      </div>
+    </div>
+  </body>
+{% endblock body %}

@@ -1,0 +1,50 @@
+/* Style the top navigation bar */
+.navbar {
+    display: flex;    
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-container {
+  display: flex;
+  padding-left:32px;
+  padding-right:32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: 0px;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-start {
+	justify-content: flex-start;
+}
+
+.flex-end {
+	justify-content: flex-end;
+}
+
+.flex-center {
+	justify-content: center;
+}
+
+.flex-center2d {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-space-between {
+	justify-content: space-between;
+}
+
+.flex-space-around {
+	justify-content: space-around;
+}

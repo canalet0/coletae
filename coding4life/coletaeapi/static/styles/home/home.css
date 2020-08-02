@@ -1,0 +1,62 @@
+.homeBackground {
+    background: url("../../assets/home/background.svg") no-repeat,#34CB79;
+    background-position: right bottom;
+}
+
+.homeTitle {
+    font-weight: bolder;
+    font-size: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+
+.homeSubTitle {
+    font-weight: bolder;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+
+.homeParagraph{
+    font-weight: bolder;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .homeBackground {
+        background-size: 80%;
+    }
+    .homeTitle{
+        font-size: 50px;
+    }
+    .homeSubTitle{
+        font-size: 25px;
+    }
+    .homeParagraph{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .main{
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .main{
+        justify-content: center;
+    }
+}
